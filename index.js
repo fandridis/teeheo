@@ -10,7 +10,7 @@
 
 	const teeheo = {
 		int: (min, max) => {
-			if (typeof from !== 'number' || typeof to !== 'number') {
+			if (typeof min !== 'number' || typeof max !== 'number') {
 				throw new TypeError('Missing arguments');
 			}
 		
