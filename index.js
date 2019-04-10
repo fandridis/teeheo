@@ -1,36 +1,27 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (global = global || self, global.howLongUntilLunch = factory());
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global = global || self, global.teeheo = factory());
 }(this, function () { 'use strict';
 
-  /**
-   * Helpers.
-   */
+	// import ms from 'ms';
+	// import lunchtime from './lunchtime.js';
+	// import millisecondsUntil from './millisecondsUntil.js';
 
-  // export default function howLongUntilLunch(hours, minutes) {
-  // 	// lunch is at 12.30
-  // 	if (hours === undefined) hours = 12;
-  // 	if (minutes === undefined) minutes = 30;
+	const teeheo = {
+		int: (min, max) => {
+			if (typeof from !== 'number' || typeof to !== 'number') {
+				throw new TypeError('Missing arguments');
+			}
+		
+			return Math.floor(Math.random()*(max-min+1)+min);
+		},
 
-  // 	var millisecondsUntilLunchTime = millisecondsUntil(lunchtime(hours, minutes));
-  // 	return ms(millisecondsUntilLunchTime, { long: true });
-  // }
+		str: (chars) => {
+			return Math.random().toString(36).substring(2, chars + 2).toUpperCase()
+		}
+	};
 
-  const teeheo = {
-  	int: (from, to) => {
-  		if (typeof from !== 'number' || typeof to !== 'number') {
-  			throw new TypeError('Missing arguments');
-  		}
-  	
-  		return Math.floor(Math.random()*(max-min+1)+min);
-  	},
-
-  	str: (chars) => {
-  		return Math.random().toString(36).substring(2, chars + 2).toUpperCase()
-  	}
-  };
-
-  return teeheo;
+	return teeheo;
 
 }));
