@@ -16,7 +16,7 @@
 		if (max && typeof max !== 'number') { throw new TypeError('Max(2nd arg) has to be a number'); }
 		if (max && max < min) { throw new TypeError('Max(2nd arg) must be larger than Min(1st arg)'); }
 		
-		if (!max) {
+		if (!max && max !== 0) {
 			max = min;
 			min = 0;
 		}
