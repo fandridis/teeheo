@@ -47,7 +47,7 @@
 
 		var num =  Math.random() * (max - min) + min;
 
-		if (opts && opts.decimals) {
+		if (opts && (opts.decimals || opts.decimals === 0)) {
 			var decimals = opts.decimals > 0 ? Math.floor(opts.decimals) : 0;
 	    num = num.toFixed(decimals);
 	  }
