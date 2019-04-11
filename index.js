@@ -17,8 +17,13 @@
 		if (max && max < min) { throw new TypeError('Max(2nd arg) must be larger than Min(1st arg)'); }
 		
 		if (!max && max !== 0) {
-			max = min;
-			min = 0;
+			if (min > 0) {
+				max = min;
+				min = 0;
+			}
+			else {
+				max = 0;
+			}
 		}
 
 		return Math.floor(Math.random() * (max - min + 1) + min);
@@ -40,9 +45,14 @@
 			if (opts.decimals && typeof opts.decimals !== 'number') { throw new TypeError('Options decimals must be a number'); }
 		}
 
-		if (!max) {
-			max = min;
-			min = 0;
+		if (!max && max !== 0) {
+			if (min > 0) {
+				max = min;
+				min = 0;
+			}
+			else {
+				max = 0;
+			}
 		}
 
 		var num =  Math.random() * (max - min) + min;
