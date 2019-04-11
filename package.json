@@ -1,6 +1,6 @@
 {
   "name": "@fandridis/teeheo",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "description": "A group of useful random-generators in one simple javascript library",
   "repository": "fandridis/teeheo",
   "main": "index.js",
