@@ -103,7 +103,7 @@
 	    }
 	  }
 	  
-	  chars = list.join('');
+	  var chars = list.join('');
 
 	  return [...Array(len)].map(i=>chars[Math.random()*chars.length|0]).join``;
 	}
