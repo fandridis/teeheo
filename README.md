@@ -105,6 +105,7 @@ With **teeheo.str(length, options)** you can generate random floats between a de
 
 <br />
 
+
 The options can be:
 | Option | Description |
 | ----------- | ----------- |
