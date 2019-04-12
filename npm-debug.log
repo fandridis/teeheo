@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/bin/node',
+1 verbose cli   '/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   'patch' ]
+2 info using npm@3.10.10
+3 info using node@v6.16.0
+4 verbose publish [ 'patch' ]
+5 silly cache add args [ 'patch', null ]
+6 verbose cache add spec patch
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'patch',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: 'patch',
+7 silly cache add   name: 'patch',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: 'latest',
+7 silly cache add   type: 'tag' }
+8 silly addNamed patch@latest
+9 verbose addNamed "latest" is being treated as a dist-tag for patch
+10 info addNameTag [ 'patch', 'latest' ]
+11 silly mapToRegistry name patch
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'patch',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'patch',
+14 silly mapToRegistry   name: 'patch',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/patch
+16 verbose addNameTag registry:https://registry.npmjs.org/patch not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/patch
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 8:35:46 PM
+20 verbose request using bearer token for auth
+21 verbose request id 87005c64ac55c0d0
+22 http request GET https://registry.npmjs.org/patch
+23 http 200 https://registry.npmjs.org/patch
+24 verbose headers { date: 'Fri, 12 Apr 2019 18:35:48 GMT',
+24 verbose headers   'content-type': 'application/json; charset=UTF-8',
+24 verbose headers   'transfer-encoding': 'chunked',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'set-cookie': [ '__cfduid=daf97af140827c7e2d377bd8cb08014461555094147; expires=Sat, 11-Apr-20 18:35:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+24 verbose headers   'cf-cache-status': 'MISS',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'cf-ray': '4c674d55583fc68d-MAD',
+24 verbose headers   etag: 'W/"ae392e2c881b43208eec883c9d3712cc"',
+24 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 verbose headers   'last-modified': 'Sun, 27 May 2018 11:56:25 GMT',
+24 verbose headers   vary: 'accept-encoding, accept',
+24 verbose headers   server: 'cloudflare',
+24 verbose headers   'content-encoding': 'gzip' }
+25 silly get cb [ 200,
+25 silly get   { date: 'Fri, 12 Apr 2019 18:35:48 GMT',
+25 silly get     'content-type': 'application/json; charset=UTF-8',
+25 silly get     'transfer-encoding': 'chunked',
+25 silly get     connection: 'keep-alive',
+25 silly get     'set-cookie': [ '__cfduid=daf97af140827c7e2d377bd8cb08014461555094147; expires=Sat, 11-Apr-20 18:35:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+25 silly get     'cf-cache-status': 'MISS',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'cf-ray': '4c674d55583fc68d-MAD',
+25 silly get     etag: 'W/"ae392e2c881b43208eec883c9d3712cc"',
+25 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 silly get     'last-modified': 'Sun, 27 May 2018 11:56:25 GMT',
+25 silly get     vary: 'accept-encoding, accept',
+25 silly get     server: 'cloudflare',
+25 silly get     'content-encoding': 'gzip' } ]
+26 verbose get saving patch to /Users/georgiosfandridis/.npm/registry.npmjs.org/patch/.cache.json
+27 verbose correctMkdir /Users/georgiosfandridis/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for patch with tag latest
+29 silly addNamed patch@0.0.1
+30 verbose addNamed "0.0.1" is a plain semver version for patch
+31 silly mapToRegistry name patch
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'patch',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   escapedName: 'patch',
+34 silly mapToRegistry   name: 'patch',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/patch
+36 verbose addRemoteTarball https://registry.npmjs.org/patch/-/patch-0.0.1.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/patch/-/patch-0.0.1.tgz',
+37 verbose addRemoteTarball   '293056dbbc71c979a1b7273308b12c5460246833' ]
+38 info retry fetch attempt 1 at 8:35:48 PM
+39 info attempt registry request try #1 at 8:35:48 PM
+40 http fetch GET https://registry.npmjs.org/patch/-/patch-0.0.1.tgz
+41 verbose request using bearer token for auth
+42 http fetch 200 https://registry.npmjs.org/patch/-/patch-0.0.1.tgz
+43 silly fetchAndShaCheck shasum 293056dbbc71c979a1b7273308b12c5460246833
+44 verbose addTmpTarball /var/folders/79/r70qmsns1y18ggfc9c0vt3cr0000gn/T/npm-51343-5abcc25f/registry.npmjs.org/patch/-/patch-0.0.1.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for patch@0.0.1
+46 verbose correctMkdir /Users/georgiosfandridis/.npm correctMkdir not in flight; initializing
+47 silly cache afterAdd patch@0.0.1
+48 verbose afterAdd /Users/georgiosfandridis/.npm/patch/0.0.1/package/package.json not in flight; writing
+49 verbose correctMkdir /Users/georgiosfandridis/.npm correctMkdir not in flight; initializing
+50 verbose afterAdd /Users/georgiosfandridis/.npm/patch/0.0.1/package/package.json written
+51 silly publish { name: 'patch',
+51 silly publish   version: '0.0.1',
+51 silly publish   description: 'an object patching tool',
+51 silly publish   main: 'patch.js',
+51 silly publish   directories: { test: 'tests' },
+51 silly publish   dependencies: {},
+51 silly publish   devDependencies: { specify: '~1.1.2' },
+51 silly publish   scripts: { test: 'node tests/*.js' },
+51 silly publish   repository: '',
+51 silly publish   author: { name: 'john chesley', email: 'john@chesl.es' },
+51 silly publish   license: 'MIT',
+51 silly publish   _id: 'patch@0.0.1',
+51 silly publish   dist:
+51 silly publish    { shasum: '293056dbbc71c979a1b7273308b12c5460246833',
+51 silly publish      tarball: 'https://registry.npmjs.org/patch/-/patch-0.0.1.tgz' },
+51 silly publish   _npmVersion: '1.1.65',
+51 silly publish   _npmUser: { name: 'chesles', email: 'john@chesl.es' },
+51 silly publish   maintainers: [ { name: 'chesles', email: 'john@chesl.es' } ],
+51 silly publish   _shasum: '293056dbbc71c979a1b7273308b12c5460246833',
+51 silly publish   _resolved: 'https://registry.npmjs.org/patch/-/patch-0.0.1.tgz',
+51 silly publish   _from: 'patch@latest' }
+52 info lifecycle patch@0.0.1~prepublish: patch@0.0.1
+53 silly lifecycle patch@0.0.1~prepublish: no script for prepublish, continuing
+54 verbose getPublishConfig undefined
+55 silly mapToRegistry name patch
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'patch',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'patch',
+58 silly mapToRegistry   name: 'patch',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/patch
+60 verbose publish registryBase https://registry.npmjs.org/
+61 silly publish uploading /Users/georgiosfandridis/.npm/patch/0.0.1/package.tgz
+62 verbose request uri https://registry.npmjs.org/patch
+63 verbose request sending authorization for write operation
+64 info attempt registry request try #1 at 8:35:49 PM
+65 verbose request using bearer token for auth
+66 http request PUT https://registry.npmjs.org/patch
+67 http 403 https://registry.npmjs.org/patch
+68 verbose headers { date: 'Fri, 12 Apr 2019 18:35:50 GMT',
+68 verbose headers   'content-type': 'application/json',
+68 verbose headers   'transfer-encoding': 'chunked',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'set-cookie': [ '__cfduid=d62e8bd1fa45d2189080727ae7aae30a71555094149; expires=Sat, 11-Apr-20 18:35:49 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+68 verbose headers   'cf-ray': '4c674d608d03c68d-MAD',
+68 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+68 verbose headers   vary: 'Accept-Encoding',
+68 verbose headers   server: 'cloudflare',
+68 verbose headers   'content-encoding': 'gzip' }
+69 verbose request invalidating /Users/georgiosfandridis/.npm/registry.npmjs.org/patch on PUT
+70 error publish Failed PUT 403
+71 verbose stack Error: You do not have permission to publish "patch". Are you logged in as the correct user? : patch
+71 verbose stack     at makeError (/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+71 verbose stack     at CachingRegistryClient.<anonymous> (/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+71 verbose stack     at /Users/georgiosfandridis/.nvm/versions/node/v6.16.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+71 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+71 verbose stack     at emitNone (events.js:91:20)
+71 verbose stack     at Gunzip.emit (events.js:185:7)
+71 verbose stack     at endReadableNT (_stream_readable.js:978:12)
+71 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+71 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+72 verbose statusCode 403
+73 verbose pkgid patch
+74 verbose cwd /Users/georgiosfandridis/personal-repos/teeheo
+75 error Darwin 17.7.0
+76 error argv "/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/bin/node" "/Users/georgiosfandridis/.nvm/versions/node/v6.16.0/bin/npm" "publish" "patch"
+77 error node v6.16.0
+78 error npm  v3.10.10
+79 error code E403
+80 error You do not have permission to publish "patch". Are you logged in as the correct user? : patch
+81 error If you need help, you may report this error at:
+81 error     <https://github.com/npm/npm/issues>
+82 verbose exit [ 1, true ]
