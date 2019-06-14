@@ -15,9 +15,9 @@ There are 2 ways to install the library.
 
 2. **As an npm package**
 
-1. Install the module: **npm install @fandridis/teeheo --save**
-2. Import it somewhere: **import teeheo from '@fandridis/teeheo';**
-3. Use it anywhere: const randomInt = teeheo.int(1,10)
+- Install the module: **npm install @fandridis/teeheo --save**
+- Import it somewhere: **import teeheo from '@fandridis/teeheo';**
+- Use it anywhere: const randomInt = teeheo.int(1,10)
 
 <br />
 
