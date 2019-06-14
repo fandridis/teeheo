@@ -98,7 +98,7 @@ teeheo.float(5, 10, { decimals: 3 }) // Will return a random float between 5 and
 <br />
 
 ## 3. Strings
-With **teeheo.str(length, options)** you can generate random floats between a desired range. You can also limit the amount of decimal points returned. By default, the generated string will include lowercase letters, uppercase letters and numbers.
+With **teeheo.str(length, options)** you can generate random strings between a desired range. You can also limit the amount of decimal points returned. By default, the generated string will include lowercase letters, uppercase letters and numbers.
 
 | Parameters | Description |
 | ----------- | ----------- |
