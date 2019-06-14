@@ -10,7 +10,7 @@ There are 3 ways to install the library.
 
 1. **With a script**
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@fandridis/teeheo@0.3.5/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fandridis/teeheo@0.5.0/dist/umd/index.min.js"></script>
 ```
 
 2. **As an npm package** (TBA)
