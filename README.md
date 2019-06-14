@@ -6,16 +6,18 @@ With teeheo, you can easily generate integers, floats, alphanumerics and uuids.
 
 ## INSTALL
 
-There are 3 ways to install the library.
+There are 2 ways to install the library.
 
 1. **With a script**
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@fandridis/teeheo@0.5.0/dist/umd/index.min.js"></script>
 ```
 
-2. **As an npm package** (TBA)
+2. **As an npm package**
 
-3. (TBA)
+1. Install the module: **npm install @fandridis/teeheo --save**
+2. Import it somewhere: **import teeheo from '@fandridis/teeheo';**
+3. Use it anywhere: const randomInt = teeheo.int(1,10)
 
 <br />
 
