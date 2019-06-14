@@ -3,7 +3,8 @@
   "version": "0.4.0",
   "description": "A group of useful random-generators in one simple javascript library",
   "repository": "fandridis/teeheo",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/umd/index.js",
   "scripts": {
     "test": "npm test"
   },
